@@ -1,0 +1,162 @@
+/* general styling */
+
+body {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    margin: 0;
+    background-color: #003049;
+    color: #EAEAEA;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+
+.header li {
+    list-style-type: none;
+}
+
+a {
+    color: #805e4d;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #6A2A1A;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    font-style: italic;
+}
+
+hr {
+    border: 2px solid #1B3A4B;
+    margin: 0;
+}
+
+
+/* header styling */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.navLinks {
+    display: flex;
+    gap: 2rem;
+}
+
+main {
+    border-bottom: 2px solid #1B3A4B;
+}
+
+
+/* main content styling */
+/* Intro styling */
+.introSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0 8rem;
+    border-bottom: 5px solid #1B3A4B;
+}
+
+.introSection p {
+    color: #B0C4D8;
+}
+
+/* content section */
+.contentSection {
+    display: flex;
+    padding: 0 3rem 0 3rem;
+    background-color: #e6e6e6;
+    color: #003049;
+    border-bottom: 5px solid #1B3A4B;
+}
+
+.projectDiv,
+.workDiv,
+.educationDiv {
+    width: 30%;
+    padding: 0 1rem;
+}
+
+/* project div */
+.projectDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+    border-right: 2px solid #1B3A4B;
+}
+
+
+/* work experience div */
+.workDiv {
+    border-right: 2px solid #1B3A4B;
+
+}
+
+.workHR,
+.projectsHR {
+    width: 100%;
+    border: 1px solid #1B3A4B;
+}
+
+.workHR {
+    margin: 1.5rem 0;
+}
+
+/* review section */
+.reviewSection {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem 2rem 3rem;
+    gap: 1rem;
+    margin: 0.5rem 0 2rem;
+
+}
+
+.reviewSection h1 {
+    text-align: center;
+}
+
+.cardDiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.card {
+    background-color: #00527C;
+    color: #EAEAEA;
+    padding: 1rem 1.5rem;
+    border-radius: 3rem;
+    width: 30%;
+    text-align: left;
+}
+
+.card:hover {
+    background-color: #006FA3;
+}
+
+.teacherName,
+.teacherRole {
+    color: #B0C4D8;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+
+/* footer styling */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    padding: 2rem 0;
+}
