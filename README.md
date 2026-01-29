@@ -2,12 +2,17 @@
 This repository contains frontend projects completed while following **[Roadmap.sh](https://roadmap.sh/frontend/projects)** frontend developer path.
 
 
-## Projects Source List
+## Projects Lists
+### Source (Roadmap.sh) List
+Click any project to open its source!
+
 **[Single-Page CV](https://roadmap.sh/projects/single-page-cv)**, **[Basic HTML Website](https://roadmap.sh/projects/basic-html-website)**
 
 **[Personal Portfolio](https://roadmap.sh/projects/portfolio-website)**
 
 ### Projects List on Repo
+Click any project to open its folder on the repo!
+
 [Single-Page CV](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Single%20Page%20CV), [Basic HTML Website](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Basic%20HTML%20Website)
 
 [Personal Portfolio](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Personal%20Portfolio)
