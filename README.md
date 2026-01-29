@@ -3,23 +3,23 @@ This repository contains frontend projects completed while following **[Roadmap.
 
 
 ## Projects Lists
-### Source (Roadmap.sh) List
-Click any project to open its source!
+### _Source (Roadmap.sh) List_
+_Click any project to open its source!_
 
-**[Single-Page CV](https://roadmap.sh/projects/single-page-cv)**, **[Basic HTML Website](https://roadmap.sh/projects/basic-html-website)**
+**1. [Single-Page CV](https://roadmap.sh/projects/single-page-cv)**, **2. [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)**
 
-**[Personal Portfolio](https://roadmap.sh/projects/portfolio-website)**
+**3. [Personal Portfolio](https://roadmap.sh/projects/portfolio-website)**
 
-### Projects List on Repo
-Click any project to open its folder on the repo!
+### _Projects List on Repo_
+_Click any project to open its folder on the repo!_
 
-[Single-Page CV](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Single%20Page%20CV), [Basic HTML Website](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Basic%20HTML%20Website)
+1. [Single-Page CV](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Single%20Page%20CV), 2. [Basic HTML Website](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Basic%20HTML%20Website)
 
-[Personal Portfolio](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Personal%20Portfolio)
+3. [Personal Portfolio](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Personal%20Portfolio)
 
 
 ## The Projects
-Click any of the images to open the project.
+_Click any of the images to open the project._
 
 <table align="left">
   <tr>
