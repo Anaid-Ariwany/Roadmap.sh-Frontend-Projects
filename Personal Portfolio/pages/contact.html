@@ -10,14 +10,18 @@
     <meta name="description" content="Contact page of Anaid Ariwany's basic HTML website.">
     <meta name="keywords" content="HTML, contact, Anaid Ariwany">
     <meta name="author" content="Anaid Ariwany">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="contactStyle.css">
 </head>
 
 <body>
     <!-- header with navigation on same row -->
-    <header>
+    <header class="header">
         <h3>Anaid Ariwany</h3>
         <nav>
-            <ul>
+            <ul class="navLinks">
                 <li><a href="../index.html">Home /</a></li>
                 <li><a href="projects.html">Projects /</a></li>
                 <li><a href="articles.html">Articles /</a></li>
@@ -29,7 +33,7 @@
     <!-- main content -->
     <main>
         <!-- contact form -->
-        <form>
+        <form class="form">
             <h1>Contact Me</h1>
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" required><br><br>
@@ -43,6 +47,11 @@
             <input type="submit" value="Submit">
         </form>
     </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <p>&copy; Anaid Ariwany. All rights reserved 2026.</p>
+    </footer>
 </body>
 
 </html>

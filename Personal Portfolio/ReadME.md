@@ -10,13 +10,13 @@ Rough mockups of the website structure for **mobile and desktop devices** are gi
 # Submission Requirements
 Your submission should include:
 
-- A fully styled, responsive website with the same structure as the previous project.
+- A fully styled, responsive website with the same structure as the previous project.✅
 
 - Consistent use of a chosen color scheme and typography.✅
 
-- Proper use of CSS techniques like Flexbox, media queries, and the box model.
+- Proper use of CSS techniques like Flexbox, media queries, and the box model.✅
 
-- A responsive navigation bar and well-styled contact form.
+- A responsive navigation bar and well-styled contact form.✅
 
 ## Bonus Points
 For bonus points, you can:
