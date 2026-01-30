@@ -41,12 +41,14 @@ hr {
 
 .header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 1rem 2rem;
 }
 
 .navLinks {
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 
@@ -60,6 +62,7 @@ main {
 .introSection {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     padding: 5rem 0 8rem;
     border-bottom: 5px solid #1B3A4B;
@@ -72,6 +75,7 @@ main {
 /* content section */
 .contentSection {
     display: flex;
+    flex-wrap: wrap;
     padding: 0 3rem 0 3rem;
     background-color: #e6e6e6;
     color: #003049;
@@ -89,6 +93,7 @@ main {
 .projectDiv {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 0.5rem;
     align-items: flex-start;
     border-right: 2px solid #1B3A4B;
@@ -115,6 +120,7 @@ main {
 .reviewSection {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding: 0 5rem 2rem 3rem;
     gap: 1rem;
     margin: 0.5rem 0 2rem;
@@ -127,6 +133,7 @@ main {
 
 .cardDiv {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 4rem;
 }
@@ -156,7 +163,122 @@ main {
 .footer {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     font-style: italic;
     padding: 2rem 0;
+}
+
+
+/* Responsive design */
+/* for small screens <500px */
+@media (max-width: 500px) {
+    body {
+        margin: 0;
+    }
+
+    .navLinks {
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .introSection {
+        padding: 3rem 1rem 5rem;
+        text-align: center;
+    }
+
+    .contentSection {
+        flex-direction: column;
+        padding: 0 1.5rem;
+        width: max-content;
+    }
+
+    .projectDiv,
+    .workDiv,
+    .educationDiv {
+        width: 100%;
+        padding: 0;
+        border-right: none;
+        border-bottom: 2px solid #1B3A4B;
+        margin-bottom: 1.5rem;
+    }
+
+    .workDiv,
+    .educationDiv {
+        border-bottom: none;
+    }
+
+    .educationDiv {
+        border-top: 2px solid #1B3A4B;
+    }
+
+    .cardDiv {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 3rem 1rem 5rem;
+    }
+}
+
+/* for medium screens from 500px to 1200px */
+@media (min-width: 501px) and (max-width: 1200px) {
+    .navLinks {
+        flex-wrap: wrap;
+    }
+
+    .contentSection {
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+
+    .projectDiv,
+    .workDiv,
+    .educationDiv {
+        width: 100%;
+        padding: 0;
+        border-right: none;
+        border-bottom: 2px solid #1B3A4B;
+        margin-bottom: 1.5rem;
+    }
+
+    .workDiv,
+    .educationDiv {
+        border-bottom: none;
+    }
+
+    .educationDiv {
+        border-top: 2px solid #1B3A4B;
+    }
+
+    .cardDiv {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+/* for larger screens >1200px */
+@media (min-width: 1201px) {
+    .introSection {
+        padding: 8rem 0 10rem;
+    }
+
+    .contentSection {
+        padding: 0 5rem;
+    }
+
+    .cardDiv {
+        flex-wrap: nowrap;
+    }
 }
