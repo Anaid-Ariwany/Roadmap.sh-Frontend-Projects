@@ -10,4 +10,4 @@ Feel free to customize the design and layout of the component as you see fit. Th
 
 After completing this project, you will have a good understanding of how to create simple layouts using HTML and CSS. You can further enhance your skills by exploring more complex layouts, such as grids and flexbox, in future projects.
 
-Source: https://roadmap.sh/projects/changelog-component
+[Project Url](https://roadmap.sh/projects/changelog-component)
