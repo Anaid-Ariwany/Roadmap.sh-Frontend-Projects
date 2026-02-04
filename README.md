@@ -62,7 +62,18 @@ _Click any of the images to open the project._
       <br /><br />
       <strong>Personal Portfolio</strong>
     </td>
-    
+    <td align="center" style="padding: 16px; border-radius: 5rem;">
+      <a href="Changelog Component/">
+        <img 
+          src="Changelog Component/websiteReview.png"
+          width="420"
+          style="border-radius: 5rem;"
+          alt="Changelog Component"
+        />
+      </a>
+      <br /><br />
+      <strong>Changelog Component</strong>
+    </td>
   </tr>
 </table>
 
