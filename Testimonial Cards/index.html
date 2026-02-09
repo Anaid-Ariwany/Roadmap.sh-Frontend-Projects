@@ -33,25 +33,39 @@
     <main>
         <!-- section 1 -->
 
-        <section>
+        <section class="row section1">
 
             <!-- left card div -->
-            <div>
-                <p>I have been solving all the project ideas on roadmap.sh and I am surprised how far I have come from
-                    where I started.</p>
-                <p>Highly recommeded!</p>
-                <img src="assets/man1.jpg" alt="man1">
-                <p>Artem Jones</p>
-                <p>Junior Frontend Developer</p>
+            <div class="col-6 firstLeftDiv">
+                <div class="bg-dark textDiv1">
+                    <p class="text-white">I have been solving all the project ideas on roadmap.sh and I am surprised how
+                        far
+                        I have come from
+                        where I started.</p>
+                    <p class="text-white">Highly recommeded!</p>
+                </div>
+                <div class="firstDivName">
+                    <img src="assets/man1.jpg" alt="man1" class="img-fluid rounded-circle">
+                    <div class="firstDivNames">
+                        <h5>Artem Jones</h5>
+                        <p>Junior Frontend Developer</p>
+                    </div>
+                </div>
             </div>
 
             <!-- right card div -->
-            <div>
-                <P>Since I started my career in 2021, I have only followed one resource, roadmap.sh, it truly helped me
+            <div class="col-6 firstRightDiv card">
+                <P>Since I started my career in 2021, I have only followed one resource, roadmap.sh, it truly helped
+                    me
                     go from 0 to having a job and changing the financial trajectory of my family.</P>
-                <img src="assets/man2.jpg" alt="man2">
-                <p>Artem Jones</p>
-                <p>Junior Frontend Developer</p>
+
+                <div class="secondDivName">
+                    <img src="assets/man2.jpg" alt="man2" class="img-fluid rounded-circle">
+                    <div class="secondDivNames">
+                        <h5>Artem Jones</h5>
+                        <p>Junior Frontend Developer</p>
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -60,19 +74,26 @@
 
         <!-- section 2 -->
 
-        <section>
+        <section class="row section2">
 
             <!-- left card div -->
-            <div>
-                <img src="assets/woman.jpg" alt="woman">
+            <div class="col-4 secondLeftDiv">
+                <img src="assets/woman.jpg" alt="woman" class="img-fluid card-img">
             </div>
 
             <!-- right card div -->
-            <div>
-                <img src="assets/man3.jpg" alt="stars">
-                <p>Jackie Mackle</p>
-                <p>Engineering Manager</p>
-                <p>I find myself recommending roadmap.sh to all the internees or junior developers. It's a great way to
+            <div class="col-8 card bg-dark secondRightDiv">
+                <div class="starIconsDiv">
+                    <img src="assets/starIcon.png" alt="stars" class="starIcon">
+                    <img src="assets/starIcon.png" alt="stars" class="starIcon">
+                    <img src="assets/starIcon.png" alt="stars" class="starIcon">
+                    <img src="assets/starIcon.png" alt="stars" class="starIcon">
+                    <img src="assets/starIcon.png" alt="stars" class="starIcon">
+                </div>
+                <p class="text-white card-title">Jackie Mackle</p>
+                <p class="text-secondary">Engineering Manager</p>
+                <p class="text-white">I find myself recommending roadmap.sh to all the internees or junior developers.
+                    It's a great way to
                     skill and grow in your career.</p>
             </div>
 
@@ -82,15 +103,41 @@
 
         <!-- section 3 -->
 
-        <section>
+        <section class="row section3">
 
             <!-- card div -->
-            <div>
+            <div class="col-8 card lastCard">
                 <p>roadmap.sh is an incredible resource. I was fortunate to discover it during my university days in
                     2018. Back then, it was just a single repository with three images. It's amazing to see how much
                     impact it has had on millions of lives since then.</p>
-                <img src="assets/man4.jpg" alt="man4">
-                <p>Artem Jones</p>
+
+                <div id="carouselExample" class="carousel slide carousel-dark">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/man1.jpg"" class=" d-block rounded-circle img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/man2.jpg" class="d-block rounded-circle img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/man1.jpg"" class=" d-block rounded-circle img-fluid" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <h5>Artem Jones</h5>
+                </div>
+
+
+
             </div>
 
         </section>
