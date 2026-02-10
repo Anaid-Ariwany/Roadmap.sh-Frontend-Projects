@@ -14,15 +14,15 @@ body {
     display: flex;
 }
 
-.section1 {
+/* .section1 {
     gap: 2rem;
-}
+} */
 
-.firstLeftDiv,
+/* .firstLeftDiv,
 .firstRightDiv {
     max-height: 15rem;
     max-width: 45rem;
-}
+} */
 
 .textDiv1 {
     padding: 1.5rem;
@@ -47,7 +47,7 @@ body {
 .firstDivName {
     display: flex;
     margin-top: 1rem;
-    padding: 0 1rem;
+    padding: 0 1rem 1rem;
 }
 
 .firstDivNames,
@@ -61,10 +61,10 @@ body {
 
 
 .rounded-circle {
-    width: 12%;
+    width: 5rem;
 }
 
-/* second card */
+
 .firstRightDiv {
     display: flex;
     flex-direction: column;
@@ -97,8 +97,8 @@ body {
     flex-direction: column;
     border-radius: 1.5rem;
     padding: 1.5rem;
-    max-height: 17rem;
-    max-width: 45rem;
+    /* max-height: 17rem;
+    max-width: 45rem; */
 }
 
 
@@ -142,11 +142,59 @@ body {
 }
 
 #carouselExample {
-    width: 50%;
+    width: 100%;
+    max-width: 400px;
+    /* keeps it from getting too big */
 }
+
 
 .carousel-inner {
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+}
+
+
+
+/* ############### Responsive Design ################### */
+/* screens below  350px*/
+@media (max-width: 350px) {
+
+    .firstDivName,
+    .secondDivName {
+        display: flex;
+        flex-direction: column;
+        min-width: fit-content;
+    }
+
+    .textDiv1,
+    .firstRightDiv,
+    .secondRightDiv {
+        min-width: min-content;
+    }
+
+    .secondRightDiv {
+        min-height: min-content;
+    }
+
+    #carouselExample {
+        min-width: 100%;
+    }
+}
+
+/* screens below  768px */
+@media (max-width: 768px) {
+    .secondLeftDiv {
+        padding-bottom: 1rem;
+    }
+
+    #carouselExample {
+        max-width: 300px;
+    }
 }
