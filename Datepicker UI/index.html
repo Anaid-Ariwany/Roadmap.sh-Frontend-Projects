@@ -6,85 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Datepicker UI</title>
 
+    <!-- link poppins google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
     <!-- link css -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- top div -->
-    <div>
-        <input type="text" placeholder="dd / mm /yy">
-        <button><img src="assets/calendarIcon.png" alt="calendar icon" /></button>
-    </div>
-
-    <!-- middle div -->
-    <div>
-        <!-- year div -->
-        <div>
-            <img src="assets/previousIcon.png" alt="previous icon">
-            <p>February 2026</p>
-            <img src="assets/nextIcon.png" alt="next icon">
+    <!-- main content -->
+    <main>
+        <!-- top div -->
+        <div class="topDiv">
+            <div class="simpleInput"><input type="text" placeholder="dd / mm /yy"></div>
+            <div><button><img src="assets/calendarIcon.png" alt="calendar icon" /></button></div>
         </div>
 
-        <!-- date div -->
-        <div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>S</th>
-                        <th>M</th>
-                        <th>T</th>
-                        <th>W</th>
-                        <th>T</th>
-                        <th>F</th>
-                        <th>S</th>
-                    </tr>
-                </thead>
+        <!-- middle div -->
+        <div class="middleDiv">
+            <!-- year div -->
+            <div class="yearDiv">
+                <img src="assets/previousIcon.png" alt="previous icon" class="icon">
+                <p>February 2026</p>
+                <img src="assets/nextIcon.png" alt="next icon" class="icon">
+            </div>
 
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                    </tr>
+            <!-- date div -->
+            <div>
+                <table>
+                    <thead class="thead">
+                        <tr>
+                            <th>S</th>
+                            <th>M</th>
+                            <th>T</th>
+                            <th>W</th>
+                            <th>T</th>
+                            <th>F</th>
+                            <th>S</th>
+                        </tr>
+                    </thead>
 
-                    <tr>
-                        <td>8</td>
-                        <td>9</td>
-                        <td>10</td>
-                        <td>11</td>
-                        <td>12</td>
-                        <td>13</td>
-                        <td>14</td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td class="date leftBorder blue">1</td>
+                            <td class="date leftBorder blue">2</td>
+                            <td class="date leftBorder">3</td>
+                            <td class="date leftBorder">4</td>
+                            <td class="date leftBorder">5</td>
+                            <td class="date leftBorder green">6</td>
+                            <td class="date green">7</td>
+                        </tr>
 
-                    <tr>
-                        <td>15</td>
-                        <td>16</td>
-                        <td>17</td>
-                        <td>18</td>
-                        <td>19</td>
-                        <td>20</td>
-                        <td>21</td>
-                    </tr>
+                        <tr>
+                            <td class="date leftBorder blue">8</td>
+                            <td class="date leftBorder blue">9</td>
+                            <td class="date leftBorder">10</td>
+                            <td class="date leftBorder red">11</td>
+                            <td class="date leftBorder red">12</td>
+                            <td class="date leftBorder">13</td>
+                            <td class="date">14</td>
+                        </tr>
 
-                    <tr>
-                        <td>22</td>
-                        <td>23</td>
-                        <td>24</td>
-                        <td>25</td>
-                        <td>26</td>
-                        <td>27</td>
-                        <td>28</td>
-                    </tr>
-                </tbody>
-            </table>
+                        <tr>
+                            <td class="date leftBorder">15</td>
+                            <td class="date leftBorder">16</td>
+                            <td class="date leftBorder">17</td>
+                            <td class="date leftBorder red">18</td>
+                            <td class="date leftBorder red">19</td>
+                            <td class="date leftBorder">20</td>
+                            <td class="date">21</td>
+                        </tr>
+
+                        <tr>
+                            <td class="leftBorder green">22</td>
+                            <td class="leftBorder green">23</td>
+                            <td class="leftBorder">24</td>
+                            <td class="leftBorder">25</td>
+                            <td class="leftBorder">26</td>
+                            <td class="leftBorder">27</td>
+                            <td>28</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
-    </div>
+    </main>
 </body>
 
 </html>

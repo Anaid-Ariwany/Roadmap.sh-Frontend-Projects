@@ -1,10 +1,109 @@
+/* general styling */
 body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
     margin: 0;
+    background-color: #076b53;
 }
 
-.dateDiv {
+main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20rem;
+    margin-top: 10rem;
+}
+
+input {
+    border: none;
+    font-size: 1.2rem;
+    background-color: black;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+
+
+button {
+    background-color: transparent;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+
+th,
+td {
+    padding: 0.5rem;
+    color: white;
+}
+
+th {
+    border-bottom: 3px solid white;
+}
+
+
+/* top div styling */
+.topDiv {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    min-width: 20.8rem;
+    background-color: black;
+}
+
+.simpleInput {
+    padding-left: 2rem;
+    border-right: 1px solid white;
+}
+
+
+/* middle div styling */
+.middleDiv {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-top: 1px;
+    background-color: black;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1.6rem;
+}
+
+.yearDiv {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.yearDiv p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.date {
+    border-bottom: 1px solid white;
+}
+
+.leftBorder {
+    border-right: 1px solid white;
+}
+
+.blue {
+    background-color: #007bff;
+}
+
+.green {
+    background-color: #28a745;
+}
+
+.red {
+    background-color: #dc3545;
 }
