@@ -1,6 +1,7 @@
 body {
     font-family: "Poppins", sans-serif;
     margin: 0;
+    background-color: rgba(10, 10, 10, 0.85);
 }
 
 span,
@@ -10,18 +11,22 @@ p {
 }
 
 p {
-    color: gray;
+    color: white;
+}
+
+.mainBodyDiv {
+    background-color: #0a0a0a;
+    padding: 2rem 3rem 2rem 0;
+    margin: 2rem auto;
+    max-width: 700px;
+    border-radius: 5rem;
 }
 
 .headerDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
-}
-
-.changelogDiv {
-    margin: 2rem auto;
+    color: white;
 }
 
 .changelog {
@@ -38,7 +43,7 @@ p {
     top: 0;
     bottom: 0;
     width: 2px;
-    background: #ccc;
+    background: #3C8657;
 }
 
 .changelog li {
@@ -55,7 +60,7 @@ p {
     transform: translateX(-50%);
     width: 12px;
     height: 12px;
-    background: red;
+    background: #3C8657;
     border: 2px solid black;
     border-radius: 50%;
     z-index: 1;
@@ -65,13 +70,14 @@ p {
     width: 45%;
     text-align: right;
     padding-right: 1rem;
-    color: gray;
+    color: #1B5889;
 }
 
 .right {
     width: 45%;
     text-align: left;
     padding-left: 1rem;
+    color: #1B5889;
 }
 
 .endDiv {
@@ -85,7 +91,8 @@ button {
     font-size: 1rem;
     cursor: pointer;
     border-radius: 0.8rem;
-    background-color: black;
-    color: white;
-    border: none;
+    background-color: transparent;
+    color: #3C8657;
+    border: 2px solid #3C8657;
+    box-shadow: 0 4px 6px rgba(60, 134, 87, 0.8);
 }
