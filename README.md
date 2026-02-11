@@ -113,17 +113,17 @@ _Click any of the images to open the project._
     </td>
   </tr>
   <tr>
-      <td align="center" style="padding: 16px; border-radius: 5rem;">
-        <a href="Accessible Form UI/">
-          <img 
-            src="Accessible Form UI/websiteReview.png"
-            width="420"
-            style="border-radius: 5rem;"
-            alt="Accessible Form UI"
-          />
-        </a>
-        <br /><br />
-        <strong>Accessible Form UI</strong>
-      </td>
-    </tr>
+    <td align="center" style="padding: 16px; border-radius: 5rem;">
+      <a href="Accessible Form UI/">
+        <img 
+          src="Accessible Form UI/websiteReview.png"
+          width="420"
+          style="border-radius: 5rem;"
+          alt="Accessible Form UI"
+        />
+      </a>
+      <br /><br />
+      <strong>Accessible Form UI</strong>
+    </td>
+  </tr>
 </table>
