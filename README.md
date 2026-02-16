@@ -12,7 +12,7 @@ _Click any project to open its source!_
 
 **5. [Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)**   **6. [Datepicker UI](https://roadmap.sh/projects/datepicker-ui)**  
 
-**7. [Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)**   **8. [Image Grid Layout](https://roadmap.sh/projects/image-grid-layout)** 
+**7. [Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)**   **8. [Image Grid Layout](https://roadmap.sh/projects/image-grid)** 
 
 
 ### _Projects List on Repo_

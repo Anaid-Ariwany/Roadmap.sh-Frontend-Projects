@@ -19,3 +19,5 @@ Key learning objectives of this project include:
 ## Learning Outcome
 By completing this project, you will gain confidence in using CSS Grid to create flexible and responsive layouts. You can further apply these skills to more complex projects as you continue learning web design and development.
 
+**_Source:_** https://roadmap.sh/projects/image-grid
+
