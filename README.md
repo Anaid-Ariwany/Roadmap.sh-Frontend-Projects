@@ -12,7 +12,7 @@ _Click any project to open its source!_
 
 **5. [Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)**   **6. [Datepicker UI](https://roadmap.sh/projects/datepicker-ui)**  
 
-**7. [Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)** 
+**7. [Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)**   **8. [Image Grid Layout](https://roadmap.sh/projects/image-grid-layout)** 
 
 
 ### _Projects List on Repo_
@@ -26,7 +26,8 @@ _Click any project to open its folder on the repo!_
 
 5. [Testimonial Cards](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Testimonial%20Cards)   6. [Datepicker UI](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Datepicker%20UI)
 
-7. [Accessible Form UI](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Accessible%20Form%20UI)
+
+7. [Accessible Form UI](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Accessible%20Form%20UI)   8. [Image Grid Layout](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Image%20Grid%20Layout)
 
 
 ## The Projects
@@ -124,6 +125,18 @@ _Click any of the images to open the project._
       </a>
       <br /><br />
       <strong>Accessible Form UI</strong>
+    </td>
+    <td align="center" style="padding: 16px; border-radius: 5rem;">
+      <a href="Image Grid Layout/">
+        <img 
+          src="Image Grid Layout/websiteReview.png"
+          width="420"
+          style="border-radius: 5rem;"
+          alt="Image Grid Layout"
+        />
+      </a>
+      <br /><br />
+      <strong>Image Grid Layout</strong>
     </td>
   </tr>
 </table>
