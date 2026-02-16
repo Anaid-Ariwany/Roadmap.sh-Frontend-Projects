@@ -20,3 +20,49 @@ div {
     grid-row: span 2;
     gap: 0.8rem;
 }
+
+/* ############## responsive design ############ */
+/* screens between 768px and 1200px */
+@media (max-width: 1200px) and (min-width: 768px) {
+    main {
+        padding: 1rem 1rem;
+        grid-template-columns: 15rem 15rem 15rem;
+        gap: 10rem;
+        min-width: max-content;
+    }
+
+    img {
+        max-width: 23.5rem;
+        height: auto;
+    }
+}
+
+/* screens between 375px and 767px */
+@media (max-width: 767px) and (min-width: 375px) {
+    main {
+        padding: 1rem 1rem;
+        grid-template-columns: 12rem 12rem;
+        gap: 8rem;
+        min-width: max-content;
+    }
+
+    img {
+        max-width: 18rem;
+        height: auto;
+    }
+}
+
+/* screens smaller than 375px */
+@media (max-width: 374px) {
+    main {
+        padding: 1rem 1rem;
+        grid-template-columns: 10rem;
+        gap: 6rem;
+        min-width: max-content;
+    }
+
+    img {
+        max-width: 15rem;
+        height: auto;
+    }
+}
