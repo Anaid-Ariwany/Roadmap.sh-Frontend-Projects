@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background-color: #6a040f;
+}
+
+main {
+    padding: 1.5rem 1.5rem;
+    display: grid;
+    grid-template-columns: 19rem 19rem 19rem;
+    gap: 12rem;
+}
+
+img {
+    max-width: 30rem;
+    height: auto;
+}
+
+div {
+    display: grid;
+    grid-row: span 2;
+    gap: 0.8rem;
+}
