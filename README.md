@@ -155,7 +155,7 @@ _Click any of the images to open the project._
     <td align="center" style="padding: 16px; border-radius: 5rem;">
       <a href="Tooltip UI/">
         <img 
-          src="Tooltip UI/websiteReview.png"
+          src="Tooltip UI/websiteReview.webp"
           width="420"
           style="border-radius: 5rem;"
           alt="Tooltip UI"

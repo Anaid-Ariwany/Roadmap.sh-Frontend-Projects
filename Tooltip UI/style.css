@@ -5,7 +5,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: #A3ADB7;
 }
 
 header {
@@ -44,4 +44,44 @@ a {
 a:hover {
     color: #E54630;
     transition: color 1s ease-in;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltiptext {
+    visibility: hidden;
+    /* Hidden by default */
+    min-width: max-content;
+    background-color: #E54630;
+    color: black;
+    text-align: center;
+    padding: 1rem 1rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    /* position above the parent element */
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Show the tooltip text on hover */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* tooltip bottom arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 12px;
+    border-style: solid;
+    border-color: #E54630 transparent transparent transparent;
 }
