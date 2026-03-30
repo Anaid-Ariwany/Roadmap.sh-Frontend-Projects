@@ -77,7 +77,7 @@ const projects = [
         image: "assets/projects/tabs.webp",
         live: "https://anaid-ariwany.github.io/Roadmap.sh-Frontend-Projects/Tabs/",
         github: "https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Tabs",
-        source: "https://roadmap.sh/projects/tabs"
+        source: "https://roadmap.sh/projects/simple-tabs"
     }
 ];
 
