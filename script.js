@@ -72,12 +72,12 @@ const projects = [
         source: "https://roadmap.sh/projects/tooltip-ui"
     },
     {
-        name: "",
-        description: "",
-        image: "assets/projects/",
-        live: "",
-        github: "",
-        source: ""
+        name: "Tabs",
+        description: "A reusable tabs component for creating tabbed interfaces.",
+        image: "assets/projects/tabs.webp",
+        live: "https://anaid-ariwany.github.io/Roadmap.sh-Frontend-Projects/Tabs/",
+        github: "https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Tabs",
+        source: "https://roadmap.sh/projects/tabs"
     }
 ];
 
