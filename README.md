@@ -23,3 +23,5 @@ The projects in this repository are organized according to the learning path out
 - Bootstrap
 - JavaScript (ES6+)
 - Various frontend frameworks and libraries (as specified in individual projects)
+
+https://roadmap.sh/projects/simple-tabs
