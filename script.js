@@ -78,6 +78,15 @@ const projects = [
         live: "https://anaid-ariwany.github.io/Roadmap.sh-Frontend-Projects/Tabs/",
         github: "https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Tabs",
         source: "https://roadmap.sh/projects/simple-tabs"
+    },
+    {
+        name: "Cookie Consent",
+        description: "A simple cookie consent popup to inform users about cookie usage. User can accept the consent, which will hide the popup and store the consent in local storage for future visits.",
+        image: "assets/projects/cookieConsent.webp",
+        live: "https://anaid-ariwany.github.io/Roadmap.sh-Frontend-Projects/Cookie%20Consent/",
+        github: "https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Cookie%20Consent",
+        source: "https://roadmap.sh/projects/cookie-consent"
+
     }
 ];
 
