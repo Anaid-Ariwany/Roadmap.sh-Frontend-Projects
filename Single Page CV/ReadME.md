@@ -1,4 +1,7 @@
 # Single Page CV Project
+
+[Live Demo](https://anaid-ariwany.github.io/Roadmap.sh-Frontend-Projects/Single%20Page%20CV/)
+
 The goal of this project is to teach you how to create a structured, single-page CV using only HTML. You will focus on laying out your education, skills, and career history in a clean, semantic manner. Styling will be addressed in a later project.
 
 In this project, you are required to create a single-page CV (Curriculum Vitae) using only HTML. Your webpage should look like the following image:

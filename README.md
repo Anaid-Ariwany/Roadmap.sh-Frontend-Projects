@@ -1,168 +1,25 @@
-# Roadmap.sh Projects – Frontend Projects
-This repository contains frontend projects completed while following **[Roadmap.sh](https://roadmap.sh/frontend/projects)** frontend developer path.
+# Roadmap.sh Frontend Projects
+
+[Live Site](https://anaid-ariwany.github.io/Roadmap.sh-Frontend-Projects/)
+
+This repository contains a collection of frontend projects completed while following the roadmap provided by the Roadmap.sh website. Each project is designed to demonstrate various frontend development skills and techniques. It serves as a personal record of my progress and a showcase of the skills I've acquired along the way as a frontend developer.
+
+### Learning Path
+The projects in this repository are organized according to the learning path outlined on the Roadmap.sh website. This includes projects related to HTML, CSS, JavaScript, and various frontend frameworks and libraries. Each project is designed to build upon the skills learned in previous projects, allowing for a gradual and comprehensive learning experience.
+
+#### Learning Objectives
+- To gain hands-on experience with frontend development by building real-world projects.
+- To understand and apply best practices in frontend development.
+- To create a portfolio of projects that can be showcased to potential employers or clients.
 
 
-## Projects Lists
-### _Source (Roadmap.sh) List_
-_Click any project to open its source!_
+### Repository Structure
+- Each project is contained within its own folder, named after the project. Each folder includes the source code, assets, and a README file with details about the project.
+- The main README file provides an overview of the repository.
 
-**1. [Single-Page CV](https://roadmap.sh/projects/single-page-cv)**   **2. [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)**
-
-
-**3. [Personal Portfolio](https://roadmap.sh/projects/portfolio-website)**    **4. [Changelog Component](https://roadmap.sh/projects/changelog-component)**
-
-
-**5. [Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)**   **6. [Datepicker UI](https://roadmap.sh/projects/datepicker-ui)**  
-
-
-**7. [Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)**   **8. [Image Grid Layout](https://roadmap.sh/projects/image-grid)** 
-
-
-**9. [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)**
-
-
-### _Projects List on Repo_
-_Click any project to open its folder on the repo!_
-
-1. [Single-Page CV](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Single%20Page%20CV)   2. [Basic HTML Website](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Basic%20HTML%20Website)
-
-
-3. [Personal Portfolio](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Personal%20Portfolio)   4. [Changelog Component](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Changelog%20Component)
-
-
-5. [Testimonial Cards](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Testimonial%20Cards)   6. [Datepicker UI](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Datepicker%20UI)
-
-
-7. [Accessible Form UI](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Accessible%20Form%20UI)   8. [Image Grid Layout](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Image%20Grid%20Layout)
-
-
-9. [Tooltip UI](https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Tooltip%20UI)
-
-
-## The Projects
-_Click any of the images to open the project._
-
-<table align="left">
-  <tr>
-    <td align="center" style="padding: 16px; border-radius: 5rem;">
-      <a href="Single Page CV/">
-        <img 
-          src="Single Page CV/cvWebsite.png"
-          width="420"
-          style="border-radius: 5rem;"
-          alt="Single-Page CV"
-        />
-      </a>
-      <br /><br />
-      <strong>Single-Page CV</strong>
-    </td>
-    <td align="center" style="padding: 16px; border-radius: 5rem;">
-      <a href="Basic HTML Website/">
-        <img 
-          src="Basic HTML Website/websiteImage.png"
-          width="420"
-          style="border-radius: 5rem;"
-          alt="Basic HTML Website"
-        />
-      </a>
-      <br /><br />
-      <strong>Basic HTML Website</strong>
-    </td>
-  </tr>
-  
-  <tr>
-    <td align="center" style="padding: 16px; border-radius: 5rem;">
-      <a href="Personal Portfolio/">
-        <img 
-          src="Personal Portfolio/websiteImage.png"
-          width="420"
-          style="border-radius: 5rem;"
-          alt="Personal Portfolio"
-        />
-      </a>
-      <br /><br />
-      <strong>Personal Portfolio</strong>
-    </td>
-    <td align="center" style="padding: 16px; border-radius: 5rem;">
-      <a href="Changelog Component/">
-        <img 
-          src="Changelog Component/websiteReview.png"
-          width="420"
-          style="border-radius: 5rem;"
-          alt="Changelog Component"
-        />
-      </a>
-      <br /><br />
-      <strong>Changelog Component</strong>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" style="padding: 16px; border-radius: 5rem;">
-      <a href="Testimonial Cards/">
-        <img 
-          src="Testimonial Cards/websiteReview.png"
-          width="420"
-          style="border-radius: 5rem;"
-          alt="Testimonial Cards"
-        />
-      </a>
-      <br /><br />
-      <strong>Testimonial Cards</strong>
-    </td>
-    <td align="center" style="padding: 16px; border-radius: 5rem;">
-      <a href="Datepicker UI/">
-        <img 
-          src="Datepicker UI/websiteReview.png"
-          width="420"
-          style="border-radius: 5rem;"
-          alt="Datepicker UI"
-        />
-      </a>
-      <br /><br />
-      <strong>Datepicker UI</strong>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" style="padding: 16px; border-radius: 5rem;">
-      <a href="Accessible Form UI/">
-        <img 
-          src="Accessible Form UI/websiteReview.png"
-          width="420"
-          style="border-radius: 5rem;"
-          alt="Accessible Form UI"
-        />
-      </a>
-      <br /><br />
-      <strong>Accessible Form UI</strong>
-    </td>
-    <td align="center" style="padding: 16px; border-radius: 5rem;">
-      <a href="Image Grid Layout/">
-        <img 
-          src="Image Grid Layout/websiteReview.png"
-          width="420"
-          style="border-radius: 5rem;"
-          alt="Image Grid Layout"
-        />
-      </a>
-      <br /><br />
-      <strong>Image Grid Layout</strong>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" style="padding: 16px; border-radius: 5rem;">
-      <a href="Tooltip UI/">
-        <img 
-          src="Tooltip UI/websiteReview.webp"
-          width="420"
-          style="border-radius: 5rem;"
-          alt="Tooltip UI"
-        />
-      </a>
-      <br /><br />
-      <strong>Tooltip UI</strong>
-    </td>
-  </tr>
-</table>
+### Technologies Used
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript (ES6+)
+- Various frontend frameworks and libraries (as specified in individual projects)
