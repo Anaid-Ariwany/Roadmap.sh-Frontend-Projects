@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    background-color: #1B1A1F;
+    color: #bebbc8;
+    letter-spacing: 1px;
+}
+
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(222, 226, 230, 0.2);
+}
+
+.nav-link.btn.btn-link {
+    color: #bebbc8;
+}
+
+.nav-link.btn.btn-link.active {
+    color: #1B1A1F;
+    background-color: #85F7C9;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabContent {
+    background-color: #85F7C9;
+    color: #1B1A1F;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
+}
