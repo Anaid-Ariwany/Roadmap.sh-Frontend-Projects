@@ -86,7 +86,14 @@ const projects = [
         live: "https://anaid-ariwany.github.io/Roadmap.sh-Frontend-Projects/Cookie%20Consent/",
         github: "https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Cookie%20Consent",
         source: "https://roadmap.sh/projects/cookie-consent"
-
+    },
+    {
+        name: "Restricted Textarea",
+        description: "A textarea component that restricts input to a specified character limit. It provides real-time feedback on the remaining characters and prevents users from exceeding the limit.",
+        image: "assets/projects/restrictedTextarea.webp",
+        live: "https://anaid-ariwany.github.io/Roadmap.sh-Frontend-Projects/Restricted%20Textarea/",
+        github: "https://github.com/Anaid-Ariwany/Roadmap.sh-Frontend-Projects/tree/main/Restricted%20Textarea",
+        source: "https://roadmap.sh/projects/restricted-textarea"
     }
 ];
 
