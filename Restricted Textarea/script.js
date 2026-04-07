@@ -10,24 +10,28 @@ create a textarea that tracks and displays the number of characters typed by the
 */
 
 //set a maximum character limit
-const maxChars = 10;
+const maxChars = 250;
+
 //add an event listener to the textarea to track input
 textarea.addEventListener('input', () => {
     //get the current length of the input
     const currentLength = textarea.value.length;
     //update the character count display
     charCount.textContent = `${currentLength}/${maxChars}`;
-    //check if the current length exceeds the maximum character limit
+    //check if the current length exceeds the maximum character limit and stop user from typing upon hitting the text limit
     if (currentLength > maxChars) {
-        //if it does, trim the input to the maximum character limit
+        //trim the textarea value to the maximum character limit
         textarea.value = textarea.value.substring(0, maxChars);
-        //change the border color to red to indicate the limit has been hit
-        container.style.borderColor = 'red';
+        //update the character count display to reflect the trimmed value
+        charCount.textContent = `${maxChars}/${maxChars}`;
+        //add a red border to indicate the limit has been reached
+        container.style.border = '2px solid red';
     } else {
-        //reset the border color if the input is within the limit
-        container.style.borderColor = '';
+        //restore the default border if the limit has not been reached
+        container.style.border = '2px solid black';
     }
 });
+
 
 
 

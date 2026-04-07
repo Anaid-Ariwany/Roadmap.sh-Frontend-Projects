@@ -1,0 +1,36 @@
+main {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+#restricted-textarea {
+    width: 500px;
+    height: 160px;
+    border: none;
+    border-color: transparent;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+/* change border color of textarea on typing */
+#restricted-textarea:focus {
+    border: none;
+    outline: none;
+}
